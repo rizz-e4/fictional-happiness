@@ -8,7 +8,7 @@ echo Dark Mode has been enabled.
 echo Setting default wallpaper...
 
 :: Set the path to the wallpaper (update the path as needed)
-set wallpaperPath="D:\a\super-potato\super-potato\wallpaper.jpg"
+set wallpaperPath="D:\a\fictional-happiness\fictional-happiness\wallpaper.jpg"
 
 :: Set the wallpaper registry keys
 reg add "HKCU\Control Panel\Desktop" /v "Wallpaper" /t REG_SZ /d %wallpaperPath% /f
